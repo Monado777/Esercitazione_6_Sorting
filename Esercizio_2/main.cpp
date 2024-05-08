@@ -10,12 +10,6 @@ using namespace std::chrono;
 
 int main(int argc, char* argv[])
 {
-    //argc: numero di argomenti che sono stati passati al programma, incluso il nome del programma stesso
-    // "argc" is the number of arguments passed to the program; said number includes the name and directory of the program.
-    // "argv" is an array of pointers for which every element points to one of the input values sent through the command prompt.
-    // "argv[0]" contains the name of the program "sorting.exe" along with its directory.
-
-    // Preemptive verification of the input vector's validity.
     cout << endl;
     cout << "argc: " << argc << "\n" << "argv[0]: " << argv[0] << endl;
     cout << endl;
